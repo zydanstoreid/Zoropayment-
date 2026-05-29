@@ -6,10 +6,13 @@ import { QrisSection } from "@/components/qris-section"
 import { Confirmation } from "@/components/confirmation"
 import { PaymentNumber } from "@/components/payment-number"
 import { SiteFooter } from "@/components/site-footer"
+import { PageLoader } from "@/components/page-loader"
+import { LiveNotifications } from "@/components/live-notifications"
 
 export default function Page() {
   return (
     <div className="min-h-dvh">
+      <PageLoader />
       <SiteHeader />
       <main>
         <Hero />
@@ -24,6 +27,7 @@ export default function Page() {
         </div>
       </main>
       <SiteFooter />
+      <LiveNotifications />
     </div>
   )
 }
