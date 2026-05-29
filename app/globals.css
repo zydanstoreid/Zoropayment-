@@ -27,22 +27,22 @@
 :root {
   --radius: 1rem;
 
-  /* Neutrals */
-  --background: oklch(0.985 0.004 150);
-  --foreground: oklch(0.18 0.02 165);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.18 0.02 165);
-  --muted: oklch(0.955 0.006 155);
-  --muted-foreground: oklch(0.48 0.015 160);
-  --border: oklch(0.9 0.008 155);
+  /* Dark neutrals (#0d1117 family) */
+  --background: oklch(0.18 0.012 255);
+  --foreground: oklch(0.97 0.005 250);
+  --card: oklch(0.22 0.014 258);
+  --card-foreground: oklch(0.97 0.005 250);
+  --muted: oklch(0.27 0.015 258);
+  --muted-foreground: oklch(0.7 0.012 255);
+  --border: oklch(0.32 0.016 258);
 
-  /* Deep ink for hero */
-  --ink: oklch(0.21 0.03 165);
-  --ink-foreground: oklch(0.97 0.01 150);
+  /* Deepest ink for hero */
+  --ink: oklch(0.14 0.012 258);
+  --ink-foreground: oklch(0.98 0.005 250);
 
-  /* Emerald primary */
-  --primary: oklch(0.58 0.13 165);
-  --primary-foreground: oklch(0.99 0.01 150);
+  /* Cyan primary (#00bfff family) */
+  --primary: oklch(0.74 0.14 230);
+  --primary-foreground: oklch(0.16 0.02 255);
 
   /* Amber accent for bonus */
   --accent: oklch(0.82 0.15 85);
